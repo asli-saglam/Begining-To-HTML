@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form >
+        <!--input-->
+        <label for="name">Name</label> <br>
+        <input type="text" placeholder="your name" id="name" name="name"> <br> 
+        <!--<input type="submit" value="gonder">-->  <!--başka bir submit butonu oluşturma türü aşağıda-->
+
+
+        <label for="email">Email</label> <br>
+        <input type="email" id="email" name="email"> <br> <!--@ olmadaığı sürece  @ ister-->
+
+        <label for="parola">Password</label> <br>
+        <input type="password" id="parola" name="parola"> <br>  <!--yazılanlar görünmeyecek-->
+
+        <label for="date">Date</label> <br>
+        <input type="date" id="date" name="date"><br>
+
+        Gender <br>
+        Male
+        <input type="radio" name="Gender" value="Male">
+        Famale
+        <input type="radio" name="Gender" value="Famale">
+        Other
+        <input type="radio" name="Gender" value="Other"> <br>
+
+        Hobbies <br>
+        technolgy
+        <input type="checkbox" name="tech" id="tech">
+        art
+        <input type="checkbox" name="art" id="art">
+        music
+        <input type="checkbox" name="music" id="music"> <br>
+
+        Degree <br>
+
+        <select name="degree" id="degree">
+            <option value="degree1">Lisans</option>
+            <option value="degree2">Yüksek Lisans</option>
+            <option value="degree3">Hazırlık</option>
+        </select> <br>
+
+        <textarea
+        name="messeage" 
+        id="messeage" 
+        cols="30"
+        rows="10"
+        placeholder="please write it here!">
+    </textarea> <br>
+
+
+        
+        <button type = "submit">Submit</button>
+        <input type="reset" value="sifirla">
+
+    </form>
+    
+</body>
+</html>
